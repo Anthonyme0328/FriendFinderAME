@@ -1,10 +1,16 @@
+
+
+
+
+
+
 //hard coded array of friends info so there is some data to make a match from
 // new user info will be pushed into here
 var friendsList = [
 
     {
         name: "AME",
-        photoLink: "httphttp://photos1.blogger.com/hello/98/3385/640/ame_sign.jpgs://3.bp.blogspot.com/-sWPOcx-aJis/W8daSx-4ZWI/AAAAAAAABGQ/LzfVVSw6WloZRFIDBsXnAE4h6rFT0M5EgCLcBGAs/s1600/trae%2Byoung.jpg",
+        photoLink: "https://placeimg.com/200/200/animals",
         Q1: 1,
         Q2: 2,
         Q3: 3,
@@ -19,7 +25,7 @@ var friendsList = [
     
     {
         name: "BOB",
-        photoLink: "https://www.biography.com/.image/ar_8:10%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_620/MTI1NDg4NTg2MDAxODA1Mjgy/bob-ross-promojpg.jpg",
+        photoLink: "https://placeimg.com/200/200/arch",
         Q1: 1,
         Q2: 2,
         Q3: 1,
@@ -34,7 +40,7 @@ var friendsList = [
     
     {
         name: "Frank",
-        photoLink: "https://m.media-amazon.com/images/M/MV5BMjM0OTczMTcxOV5BMl5BanBnXkFtZTgwMDU1MDUwMjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        photoLink: "https://placeimg.com/200/200/nature",
         Q1: 1,
         Q2: 1,
         Q3: 1,
@@ -49,7 +55,7 @@ var friendsList = [
     
     {
         name: "Other Guy",
-        photoLink: "https://2.bp.blogspot.com/-ilTL_iPma6c/U5jVOO-mXWI/AAAAAAAADyg/-TQvAjCWJYk/s1600/the-other-guys-51a79e4ce37f8.png",
+        photoLink: "https://placeimg.com/200/200/people",
         Q1: 5,
         Q2: 5,
         Q3: 5,
@@ -66,3 +72,4 @@ var friendsList = [
     ];
     // exports array to be used elsewhere
     module.exports = friendsList;
+
