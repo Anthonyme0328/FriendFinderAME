@@ -1,12 +1,12 @@
     
 // imports the friend file to use the array
-var friends = require("../data/friends.js");
+var listOFriends = require("../data/friends.js");
 
 // Function to export GET and POST to the server file
 module.exports = function (app) {
     // GET the info from /api/friends path and returns it in JSON format
     app.get("/api/friends", function (req, res) {
-        res.json(friends);
+        res.json(listOFriends);
         
     });
 
@@ -41,7 +41,7 @@ module.exports = function (app) {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-	// app.post('/api/friends', function(req, res) {
+	// app.post('./api/friends', function(req, res) {
 
 	// 	var userInput = req.body;
 	// 	var userResponses = userInput.scores;
