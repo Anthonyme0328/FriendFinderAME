@@ -1,5 +1,10 @@
 # FriendFinderAME
 
+
+**Click here to try it out**
+
+https://amefinder.herokuapp.com
+
 Are you all alone? Have no friends? Just want to meet new people? Then you have came to the right place
 
     - Answer a few simple questions
